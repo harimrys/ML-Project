@@ -1,0 +1,49 @@
+# Project settings
+project:
+  name: My ML Project
+
+# Paths configuration
+paths:
+  functions: notebook/functions.py
+  ml_model: notebooks/ML_models.ipynb
+  main_notebook: notebooks/main.ipynb
+  test_main_notebook: notebooks/test_main.ipynb
+  data_1: "data/Train.csv"
+  cleaned_data_1: "data/features.csv"
+  cleaned_data_2: "data/target.csv"
+  data_result: "data/model_comparison_results.csv"
+
+# Visualization settings
+visualization:
+  output_dir: "images_png/"
+  format: "png"
+
+# Model settings
+model: 
+  type: "Logistic Regression"
+  hyperparameters:
+    random_state: 42
+    max_iter: 1000
+
+model:
+  type: "Decision Tree"
+  hyperparameters:
+    random_state: 42
+
+model:
+  type: "Random Forest"
+  hyperparameters:
+    random_state: 42
+
+model:  
+  type: "SVM"
+  hyperparameters:
+    random_state: 42
+
+model:
+  type: "KNN"
+
+# Training settings
+training:
+  test_size: 0.2
+  random_state: 42
