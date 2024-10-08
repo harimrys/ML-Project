@@ -1,0 +1,121 @@
+Model,Outliers,Scaling,Feature Set,Accuracy
+Logistic Regression,With Outliers,No Scaling,All Features,0.7976190476190477
+Decision Tree,With Outliers,No Scaling,All Features,0.7537202380952381
+Random Forest,With Outliers,No Scaling,All Features,0.7745535714285714
+SVM,With Outliers,No Scaling,All Features,0.6808035714285714
+KNN,With Outliers,No Scaling,All Features,0.7358630952380952
+Logistic Regression,With Outliers,No Scaling,Numeric Only,0.6257440476190477
+Decision Tree,With Outliers,No Scaling,Numeric Only,0.6785714285714286
+Random Forest,With Outliers,No Scaling,Numeric Only,0.6755952380952381
+SVM,With Outliers,No Scaling,Numeric Only,0.6636904761904762
+KNN,With Outliers,No Scaling,Numeric Only,0.6822916666666666
+Logistic Regression,With Outliers,No Scaling,Categorical Only,0.7485119047619048
+Decision Tree,With Outliers,No Scaling,Categorical Only,0.7492559523809523
+Random Forest,With Outliers,No Scaling,Categorical Only,0.7447916666666666
+SVM,With Outliers,No Scaling,Categorical Only,0.7485119047619048
+KNN,With Outliers,No Scaling,Categorical Only,0.6845238095238095
+Logistic Regression,With Outliers,No Scaling,No Family Size,0.7485119047619048
+Decision Tree,With Outliers,No Scaling,No Family Size,0.7008928571428571
+Random Forest,With Outliers,No Scaling,No Family Size,0.7046130952380952
+SVM,With Outliers,No Scaling,No Family Size,0.6071428571428571
+KNN,With Outliers,No Scaling,No Family Size,0.6681547619047619
+Logistic Regression,With Outliers,Standardization,All Features,0.796875
+Decision Tree,With Outliers,Standardization,All Features,0.7552083333333334
+Random Forest,With Outliers,Standardization,All Features,0.7797619047619048
+SVM,With Outliers,Standardization,All Features,0.8065476190476191
+KNN,With Outliers,Standardization,All Features,0.7797619047619048
+Logistic Regression,With Outliers,Standardization,Numeric Only,0.6257440476190477
+Decision Tree,With Outliers,Standardization,Numeric Only,0.6770833333333334
+Random Forest,With Outliers,Standardization,Numeric Only,0.6800595238095238
+SVM,With Outliers,Standardization,Numeric Only,0.6934523809523809
+KNN,With Outliers,Standardization,Numeric Only,0.6815476190476191
+Logistic Regression,With Outliers,Standardization,Categorical Only,0.7485119047619048
+Decision Tree,With Outliers,Standardization,Categorical Only,0.7492559523809523
+Random Forest,With Outliers,Standardization,Categorical Only,0.7447916666666666
+SVM,With Outliers,Standardization,Categorical Only,0.7470238095238095
+KNN,With Outliers,Standardization,Categorical Only,0.6882440476190477
+Logistic Regression,With Outliers,Standardization,No Family Size,0.7485119047619048
+Decision Tree,With Outliers,Standardization,No Family Size,0.7008928571428571
+Random Forest,With Outliers,Standardization,No Family Size,0.7023809523809523
+SVM,With Outliers,Standardization,No Family Size,0.7492559523809523
+KNN,With Outliers,Standardization,No Family Size,0.7113095238095238
+Logistic Regression,With Outliers,Normalization,All Features,0.7998511904761905
+Decision Tree,With Outliers,Normalization,All Features,0.7537202380952381
+Random Forest,With Outliers,Normalization,All Features,0.7790178571428571
+SVM,With Outliers,Normalization,All Features,0.7991071428571429
+KNN,With Outliers,Normalization,All Features,0.7760416666666666
+Logistic Regression,With Outliers,Normalization,Numeric Only,0.6257440476190477
+Decision Tree,With Outliers,Normalization,Numeric Only,0.6778273809523809
+Random Forest,With Outliers,Normalization,Numeric Only,0.6770833333333334
+SVM,With Outliers,Normalization,Numeric Only,0.6979166666666666
+KNN,With Outliers,Normalization,Numeric Only,0.6741071428571429
+Logistic Regression,With Outliers,Normalization,Categorical Only,0.7485119047619048
+Decision Tree,With Outliers,Normalization,Categorical Only,0.7492559523809523
+Random Forest,With Outliers,Normalization,Categorical Only,0.7447916666666666
+SVM,With Outliers,Normalization,Categorical Only,0.7485119047619048
+KNN,With Outliers,Normalization,Categorical Only,0.6845238095238095
+Logistic Regression,With Outliers,Normalization,No Family Size,0.7492559523809523
+Decision Tree,With Outliers,Normalization,No Family Size,0.7016369047619048
+Random Forest,With Outliers,Normalization,No Family Size,0.7038690476190477
+SVM,With Outliers,Normalization,No Family Size,0.7522321428571429
+KNN,With Outliers,Normalization,No Family Size,0.7150297619047619
+Logistic Regression,Without Outliers,No Scaling,All Features,0.8039664378337147
+Decision Tree,Without Outliers,No Scaling,All Features,0.7734553775743707
+Random Forest,Without Outliers,No Scaling,All Features,0.7841342486651411
+SVM,Without Outliers,No Scaling,All Features,0.6956521739130435
+KNN,Without Outliers,No Scaling,All Features,0.7559115179252479
+Logistic Regression,Without Outliers,No Scaling,Numeric Only,0.6445461479786423
+Decision Tree,Without Outliers,No Scaling,Numeric Only,0.6819221967963387
+Random Forest,Without Outliers,No Scaling,Numeric Only,0.6948893974065599
+SVM,Without Outliers,No Scaling,Numeric Only,0.6803966437833715
+KNN,Without Outliers,No Scaling,Numeric Only,0.6773455377574371
+Logistic Regression,Without Outliers,No Scaling,Categorical Only,0.7485119047619048
+Decision Tree,Without Outliers,No Scaling,Categorical Only,0.7492559523809523
+Random Forest,Without Outliers,No Scaling,Categorical Only,0.7447916666666666
+SVM,Without Outliers,No Scaling,Categorical Only,0.7485119047619048
+KNN,Without Outliers,No Scaling,Categorical Only,0.6845238095238095
+Logistic Regression,Without Outliers,No Scaling,No Family Size,0.746043707611153
+Decision Tree,Without Outliers,No Scaling,No Family Size,0.7128862094951017
+Random Forest,Without Outliers,No Scaling,No Family Size,0.718914845516202
+SVM,Without Outliers,No Scaling,No Family Size,0.6164280331574982
+KNN,Without Outliers,No Scaling,No Family Size,0.7030896759608138
+Logistic Regression,Without Outliers,Standardization,All Features,0.8054919908466819
+Decision Tree,Without Outliers,Standardization,All Features,0.7742181540808543
+Random Forest,Without Outliers,Standardization,All Features,0.7864225781845919
+SVM,Without Outliers,Standardization,All Features,0.8154080854309688
+KNN,Without Outliers,Standardization,All Features,0.8070175438596491
+Logistic Regression,Without Outliers,Standardization,Numeric Only,0.6445461479786423
+Decision Tree,Without Outliers,Standardization,Numeric Only,0.6826849733028223
+Random Forest,Without Outliers,Standardization,Numeric Only,0.6948893974065599
+SVM,Without Outliers,Standardization,Numeric Only,0.7147215865751335
+KNN,Without Outliers,Standardization,Numeric Only,0.6826849733028223
+Logistic Regression,Without Outliers,Standardization,Categorical Only,0.7485119047619048
+Decision Tree,Without Outliers,Standardization,Categorical Only,0.7492559523809523
+Random Forest,Without Outliers,Standardization,Categorical Only,0.7447916666666666
+SVM,Without Outliers,Standardization,Categorical Only,0.7470238095238095
+KNN,Without Outliers,Standardization,Categorical Only,0.6882440476190477
+Logistic Regression,Without Outliers,Standardization,No Family Size,0.7445365486058779
+Decision Tree,Without Outliers,Standardization,No Family Size,0.7121326299924642
+Random Forest,Without Outliers,Standardization,No Family Size,0.7219291635267521
+SVM,Without Outliers,Standardization,No Family Size,0.746043707611153
+KNN,Without Outliers,Standardization,No Family Size,0.73172569706104
+Logistic Regression,Without Outliers,Normalization,All Features,0.8062547673531655
+Decision Tree,Without Outliers,Normalization,All Features,0.7757437070938215
+Random Forest,Without Outliers,Normalization,All Features,0.7856598016781083
+SVM,Without Outliers,Normalization,All Features,0.8062547673531655
+KNN,Without Outliers,Normalization,All Features,0.813119755911518
+Logistic Regression,Without Outliers,Normalization,Numeric Only,0.6430205949656751
+Decision Tree,Without Outliers,Normalization,Numeric Only,0.6819221967963387
+Random Forest,Without Outliers,Normalization,Numeric Only,0.6964149504195271
+SVM,Without Outliers,Normalization,Numeric Only,0.7162471395881007
+KNN,Without Outliers,Normalization,Numeric Only,0.6842105263157895
+Logistic Regression,Without Outliers,Normalization,Categorical Only,0.7485119047619048
+Decision Tree,Without Outliers,Normalization,Categorical Only,0.7492559523809523
+Random Forest,Without Outliers,Normalization,Categorical Only,0.7447916666666666
+SVM,Without Outliers,Normalization,Categorical Only,0.7485119047619048
+KNN,Without Outliers,Normalization,Categorical Only,0.6845238095238095
+Logistic Regression,Without Outliers,Normalization,No Family Size,0.7445365486058779
+Decision Tree,Without Outliers,Normalization,No Family Size,0.7136397889977393
+Random Forest,Without Outliers,Normalization,No Family Size,0.7241899020346647
+SVM,Without Outliers,Normalization,No Family Size,0.7452901281085155
+KNN,Without Outliers,Normalization,No Family Size,0.7249434815373021
