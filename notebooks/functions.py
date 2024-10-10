@@ -22,7 +22,29 @@ import warnings
 warnings.filterwarnings("ignore")
 
 def dropcolumns(df, column1, column2, column3):
-    df = df.drop(columns = [column1, column2, column3], reset_index = True, inplace = True)
+    """
+    Drop the specified columns from a pandas DataFrame.
+
+    Parameters
+    ----------
+    df : pandas.DataFrame
+        The DataFrame to drop columns from.
+    column1 : str
+        The first column to drop.
+    column2 : str
+        The second column to drop.
+    column3 : str
+        The third column to drop.
+
+    Returns
+    -------
+    pandas.DataFrame
+        The DataFrame with the specified columns dropped.
+    """
+    # Drop the specified columns from the DataFrame
+    df = df.drop(columns = [column1, column2, column3], inplace = True)
+    # Reset the index
+    df.reset_index(drop = True, inplace = True)
     return df
 
 def mapeo_gender(df, columns):
