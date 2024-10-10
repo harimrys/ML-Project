@@ -43,35 +43,101 @@ def dropcolumns(df, column1, column2, column3):
     """
     # Drop the specified columns from the DataFrame
     df = df.drop(columns = [column1, column2, column3], inplace = True)
-    # Reset the index
-    df.reset_index(drop = True, inplace = True)
+
     return df
 
 def mapeo_gender(df, columns):
+    """
+    Maps the gender column to True (Female) and False (Male).
+
+    Parameters
+    ----------
+    df : pandas.DataFrame
+        The DataFrame containing the gender column.
+    columns : str
+        The name of the gender column.
+
+    Returns
+    -------
+    pandas.DataFrame
+        The DataFrame with the gender column mapped.
+    """
+    # Map the gender column to True (Female) and False (Male)
     gender_map = {"Female": True, "Male": False}
     df[columns] = df[columns].map(gender_map)
+    
     return df
 
 def mapeo(df, columns):
+    """
+    Maps the specified column to True (Yes) and False (No).
+
+    Parameters
+    ----------
+    df : pandas.DataFrame
+        The DataFrame containing the column to map.
+    columns : str
+        The name of the column to map.
+
+    Returns
+    -------
+    pandas.DataFrame
+        The DataFrame with the mapped column.
+    """
+    # Map the column to True (Yes) and False (No)
     map_total = {"Yes": True, "No": False}
     df[columns] = df[columns].map(map_total)
+    
     return df
 
 
 def bar_plot(df, columns):
+    """
+    Plots a bar plot to visualize the frequency of each category
+    in the specified column.
+
+    Parameters
+    ----------
+    df : pandas.DataFrame
+        The DataFrame containing the column to visualize.
+    columns : str
+        The name of the column to visualize.
+
+    Returns
+    -------
+    None
+    """
+    # Set the figure size
     plt.figure(figsize=(8, 5))
+    # Plot the bar plot
     sns.countplot(data = df, x= columns, palette='Blues')
+    # Set the title and labels
     plt.title('Frecuencia de Categorías')
     plt.xlabel('Categoría')
     plt.ylabel('Frecuencia')
+    # Rotate the x-axis labels for better readability
     plt.xticks(rotation=0)
+    # Show the plot
     plt.show()
 
     
 def correlacion(features):
+    """
+    This function calculates the correlation matrix of the given features and
+    visualizes it as a heatmap using Plotly Express.
 
+    Parameters
+    ----------
+    features : pandas.DataFrame
+        A DataFrame containing the features to calculate the correlation matrix.
+
+    Returns
+    -------
+    None
+    """
     # Calculate the correlation matrix
     correlation_matrix = np.abs(features.corr())
+
     # Create the heatmap using Plotly Express
     fig = px.imshow(correlation_matrix,
                     x=correlation_matrix.columns,
@@ -104,7 +170,26 @@ def correlacion(features):
 
 
 def graficos(df, columns):
-    df[columns].value_counts().plot(kind='pie', autopct='%1.1f%%', colors=['#CDB4DB', '#FFC8DD', '#BDE0FE'], figsize=(6,6))
-    plt.ylabel('')
-    plt.title(columns)
-    plt.show()
+    """
+    Plot a pie chart showing the distribution of values in the column(s) specified.
+
+    Parameters
+    ----------
+    df : pandas.DataFrame
+        A DataFrame containing the data to plot.
+    columns : str or list of str
+        The column or columns to plot.
+
+    Returns
+    -------
+    None
+    """
+    df[columns].value_counts().plot(
+        kind='pie',
+        autopct='%1.1f%%',
+        colors=['#CDB4DB', '#FFC8DD', '#BDE0FE'],
+        figsize=(6,6)
+    )
+    plt.ylabel('')  # Remove y-axis label
+    plt.title(columns)  # Set title as column name
+    plt.show()  # Show the plot

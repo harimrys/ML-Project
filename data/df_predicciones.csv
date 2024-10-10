@@ -61,7 +61,7 @@
 5065,Low,Low,Low,Low,Low,Low
 5445,High,Low,Low,Low,High,High
 1963,Low,Low,Low,High,High,High
-3982,Average,Average,Average,Average,Low,Average
+3982,Average,Low,Average,Average,Low,Average
 4641,High,High,High,High,Average,Average
 4860,Low,Low,Low,Low,Low,Low
 5069,Low,Low,Low,Low,Low,Low
@@ -121,7 +121,7 @@
 5002,Average,Low,Average,Low,Average,Average
 1643,Average,Low,Average,Low,Average,Average
 1487,Low,Low,Low,Low,Low,Low
-2275,Average,Low,Average,Average,Low,Average
+2275,Average,Low,Average,Low,Low,Average
 2357,Low,Average,High,Average,Average,Average
 5572,Average,Average,Average,Average,Average,Average
 1922,Average,High,Average,High,Average,Average
@@ -198,7 +198,7 @@
 6209,Low,Low,Low,Low,Low,Low
 1791,Low,Low,Low,Low,Low,Low
 50,Average,Average,Average,Average,Average,Average
-1765,Low,Average,Average,Average,Average,Average
+1765,Low,Average,Average,High,Average,Average
 239,Low,Low,Low,Low,Low,Low
 5410,Average,Average,Average,Average,Average,Average
 5821,Average,Average,Average,Average,Average,Average
@@ -372,7 +372,7 @@
 2138,Average,Average,Low,Average,Average,Average
 2847,Average,Low,Low,Low,Average,Average
 3172,Low,Low,Low,Low,Low,Low
-469,Average,Low,Low,Low,Average,Average
+469,Average,Low,Low,Average,Average,Average
 1405,Average,Average,Low,Average,Average,Average
 4857,Low,Low,Low,Low,Low,Low
 4786,Low,Low,Low,Low,Low,Low
@@ -436,7 +436,7 @@
 5380,Low,Low,Low,Low,Low,Low
 3989,Low,Low,Low,Low,Low,Low
 5834,Low,Low,Low,Low,Low,Low
-5657,High,High,High,Low,High,High
+5657,High,High,High,High,High,High
 2399,Low,Low,Low,Low,Low,Low
 2323,Low,Low,Low,Low,Low,Low
 5907,Low,Low,Low,Low,Low,Low
@@ -461,7 +461,7 @@
 1480,Low,Average,Average,Average,Average,Average
 4741,High,High,Low,Low,High,High
 842,Average,Average,Average,Average,Average,Average
-2868,Average,Average,Average,Average,High,High
+2868,Average,Average,Low,Average,High,High
 2617,Low,Low,Low,Low,Low,Low
 2759,Low,Low,Low,Low,Low,Low
 2252,High,High,High,High,High,High
@@ -566,7 +566,7 @@
 5470,Average,Average,Average,Low,Average,Average
 5550,Low,Low,Low,Low,Low,Low
 5129,Low,Low,Low,Low,Low,Low
-3615,Average,Average,High,Average,Average,Average
+3615,Average,Average,High,High,Average,Average
 676,Average,Average,Average,Average,Average,Average
 167,Low,High,Low,Low,Average,Average
 5555,Average,Average,Average,Average,Average,Average
@@ -655,7 +655,7 @@
 6072,Low,Low,Low,Low,Low,Low
 4080,Low,Low,Low,Low,Low,Low
 14,Average,Average,Average,Average,Average,Average
-5724,Average,Average,Average,Average,Average,Average
+5724,Average,Average,Average,Low,Average,Average
 6327,Low,Low,Low,Low,Low,Low
 5501,Low,Low,Low,Low,Low,Low
 8,Low,Low,Low,Low,Low,Low
@@ -669,7 +669,7 @@
 2288,Low,Low,Low,Low,Low,Low
 5484,Low,High,High,High,High,High
 5865,Low,Low,Low,Low,Low,Low
-3316,Average,Low,Low,Average,Average,Average
+3316,Average,Average,Low,Average,Average,Average
 4030,Low,Low,Low,Low,Low,Low
 4505,Low,Low,Low,Low,Low,Low
 3659,High,High,High,High,High,High
@@ -721,7 +721,7 @@
 5754,Low,High,High,High,High,High
 1158,Low,Low,Low,Low,Low,Low
 4534,Average,Low,Low,Average,Average,Average
-5394,High,High,High,High,High,High
+5394,High,High,Low,High,High,High
 4693,Average,Average,Average,Average,Average,Average
 982,High,Average,Average,Average,Average,Average
 185,Low,Low,Low,Low,Low,Low
@@ -756,7 +756,7 @@
 4012,Low,Low,Low,Low,Low,Low
 4502,High,Average,Average,Average,Average,Low
 4961,Average,Average,Average,Average,Average,Average
-5074,Average,Average,Low,Average,Average,Average
+5074,Average,Average,Average,Average,Average,Average
 1174,Low,Low,Low,Low,Low,Low
 1411,Low,Low,Low,Low,Low,Low
 1618,Low,Low,Low,Low,Low,Low
@@ -919,7 +919,7 @@
 6561,Low,Average,Average,Average,Average,Average
 4603,Low,Low,Low,Low,Low,Low
 231,High,High,High,High,High,High
-3560,Average,Average,Average,Average,Average,Average
+3560,Average,Average,Average,High,Average,Average
 576,Low,Low,Low,Low,Low,Low
 5290,Low,Low,Low,Low,Low,Low
 2405,Low,Low,Low,Low,Low,Low
@@ -1148,14 +1148,14 @@
 6069,Average,Average,Average,Average,Average,Average
 315,Average,Average,Low,Average,Average,Average
 2206,Low,Low,Low,Low,Low,Low
-4769,High,Low,Low,Low,Average,Average
+4769,High,Low,Low,Average,Average,Average
 6666,Low,Low,Low,Low,Low,Low
 3467,Average,Average,Average,Average,Average,Average
 4708,High,High,High,High,High,High
 5327,Low,Low,Low,Low,Low,Low
 4774,Low,Low,Low,Low,Low,Low
 2308,Low,Low,Low,Low,Low,Low
-5902,Average,Average,Average,Average,Average,Average
+5902,Average,Average,Average,High,Average,Average
 5904,High,High,High,High,High,High
 3217,Average,Low,Low,Low,Average,Average
 6189,Average,High,Average,High,Average,Average
@@ -1230,13 +1230,13 @@
 4872,Low,Low,Low,Low,Low,Low
 4620,Low,Low,Low,Low,Average,Average
 2991,Low,Low,Low,Low,Low,Low
-4168,High,Average,Average,Average,Average,Average
+4168,High,Average,Average,High,Average,Average
 1397,Low,Low,Low,Low,Low,Low
 6468,Low,Low,Low,Low,Low,Low
 6603,High,High,High,Low,High,High
 4943,Low,Low,Low,Low,Low,Low
 5272,Low,Low,Low,Low,Low,Low
-3844,Low,Average,Average,Average,Average,Average
+3844,Low,Average,Average,High,Average,Average
 641,Average,High,High,High,Average,Average
 3379,Average,Average,Average,Average,Average,Average
 4816,Average,Low,Average,Average,Average,Average
@@ -1293,7 +1293,7 @@
 6297,Low,Low,Low,Low,Low,Low
 4075,Average,Average,Average,Average,Average,Average
 2827,High,Average,Average,Average,Average,Average
-2229,Low,Average,Average,Low,Average,Average
+2229,Low,Average,Average,Average,Average,Average
 3334,High,High,High,High,High,High
 5617,Low,Low,Low,Low,Low,Low
 6257,Low,Low,Low,Low,Low,Low
@@ -1312,7 +1312,7 @@
 6433,Low,Low,Low,Low,Low,Low
 808,Low,Average,Low,Average,Average,Average
 6660,Low,Low,Low,Low,Low,Low
-6109,Average,High,Average,High,High,High
+6109,Average,High,Average,Average,High,High
 1119,Low,Average,Average,Average,Average,Average
 810,Low,Low,Low,Low,Low,Low
 1129,Low,Low,Low,Low,Low,Low
@@ -1337,7 +1337,7 @@
 3484,High,High,High,High,High,High
 662,Low,Low,Low,Low,Low,Low
 172,Average,Average,Average,Average,Average,Average
-1871,High,Average,Average,Average,Average,Average
+1871,High,Average,Average,High,Average,Average
 4333,Low,Low,Low,Low,Low,Low
 422,Low,Low,Low,Low,Low,Low
 3355,Average,High,High,Average,Average,Average

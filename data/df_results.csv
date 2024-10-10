@@ -1,0 +1,6 @@
+,Modelo,Precisión
+3,Gradient Boosting,0.8199404761904762
+4,Adaptative Boosting,0.8154761904761905
+2,Random Forest,0.7745535714285714
+1,Bagging and Pasting,0.7581845238095238
+0,KNN,0.7455357142857143
